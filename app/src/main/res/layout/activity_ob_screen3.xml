@@ -17,10 +17,10 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/obs1_text"
+        android:text="@string/obs3_text"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="56sp"
+        android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -37,16 +37,15 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:lineSpacingExtra="4sp"
-        android:text="@string/obs1_des"
+        android:text="@string/obs2_des"
         android:textColor="#666666"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/nextButton1"
+        app:layout_constraintBottom_toTopOf="@+id/GSButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-
     <Button
-        android:id="@+id/nextButton1"
+        android:id="@+id/GSButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
@@ -56,7 +55,7 @@
         android:elevation="4dp"
         android:insetTop="0dp"
         android:insetBottom="0dp"
-        android:text="@string/nextButton"
+        android:text="@string/gsButton"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="16sp"
@@ -64,18 +63,6 @@
         app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
-
-    <TextView
-        android:id="@+id/skipText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="@string/skip"
-        android:textColor="#666666"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 

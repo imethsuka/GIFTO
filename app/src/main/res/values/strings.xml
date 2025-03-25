@@ -4,4 +4,8 @@
     <string name="obs1_des">From fresh flowers and delicious cakes to heartfelt cards and premium chocolates—shop the best gifts all in one place.</string>
     <string name="nextButton">Next</string>
     <string name="skip">Skip</string>
+    <string name="obs2_text"><![CDATA[Fast & Reliable Delivery]]></string>
+    <string name="obs2_des">Choose the perfect gift, set a delivery time, and we’ll bring joy right to their door-on time, every time.</string>
+    <string name="obs3_text">Ready to Make Someone’s Day?</string>
+    <string name="gsButton">Get Started</string>
 </resources>

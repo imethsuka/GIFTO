@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.GIFTO" parent="Base.Theme.GIFTO" />
+    <style name="Theme.GIFTO.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
 </resources>

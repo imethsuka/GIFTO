@@ -12,21 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GIFTO"
         tools:targetApi="31">
-        <activity
-            android:name=".obScreen2"
-            android:exported="false" />
-        <activity
-            android:name=".obScreen1"
-            android:exported="false" />
+
+        <!-- Main Loading Screen -->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.GIFTO.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Onboarding Screen 1 -->
+        <activity
+            android:name=".obScreen1"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
+
+        <!-- Onboarding Screen 2 -->
+        <activity
+            android:name=".obScreen2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
+
+        <!-- Onboarding Screen 3 (Final Screen) -->
+        <activity
+            android:name=".obScreen3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
+
     </application>
 
 </manifest>
