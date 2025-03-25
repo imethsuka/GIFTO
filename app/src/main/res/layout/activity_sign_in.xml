@@ -98,6 +98,8 @@
         android:text="Don't Have an Account? Sign Up"
         android:textColor="#808080"
         android:textSize="14sp"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SignIn" />
