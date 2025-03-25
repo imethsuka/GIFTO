@@ -8,4 +8,7 @@
     <string name="obs2_des">Choose the perfect gift, set a delivery time, and we’ll bring joy right to their door-on time, every time.</string>
     <string name="obs3_text">Ready to Make Someone’s Day?</string>
     <string name="gsButton">Get Started</string>
+    <string name="signIn">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>

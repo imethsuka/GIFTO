@@ -24,27 +24,31 @@
             </intent-filter>
         </activity>
 
-        <!-- Onboarding Screen 1 -->
+        <!-- Onboarding Screens -->
         <activity
             android:name=".obScreen1"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.GIFTO.NoActionBar" />
 
-        <!-- Onboarding Screen 2 -->
         <activity
             android:name=".obScreen2"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.GIFTO.NoActionBar" />
 
-        <!-- Onboarding Screen 3 (Final Screen) -->
         <activity
             android:name=".obScreen3"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.GIFTO.NoActionBar" />
 
-    </application>
+        <!-- Sign In Activity (Single Declaration) -->
+        <activity
+            android:name=".signIn"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
 
+    </application>
 </manifest>
