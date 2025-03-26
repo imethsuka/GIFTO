@@ -231,16 +231,12 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/btnCheckout"
+                android:id="@+id/btnCheckout111"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/blackbtn"
-                android:text="PROCEED TO CHECKOUT"
-                android:textColor="@color/white"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                app:cornerRadius="20dp" />
+                android:layout_height="54dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/ProceedToCheckout"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 

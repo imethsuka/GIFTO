@@ -34,7 +34,6 @@ class store : AppCompatActivity() {
         }
 
         navSettings.setOnClickListener {
-            // Settings navigation if needed
         }
     }
 }

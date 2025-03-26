@@ -12,7 +12,6 @@
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="signUp">Sign Up</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="rose">Rose Bouquet</string>
     <string name="DelightChocolate">Delight Chocolate</string>
@@ -25,4 +24,6 @@
     <string name="Buy">Buy</string>
     <string name="myName">Imeth Methsuka</string>
     <string name="myEmail">imethsuka@gmail.com</string>
+    <string name="goBackHome">Go Back Home</string>
+    <string name="ProceedToCheckout">Proceed to Checkout</string>
 </resources>

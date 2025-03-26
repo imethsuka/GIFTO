@@ -17,7 +17,7 @@ class obScreen2 : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.skipText).setOnClickListener {
-            startActivity(Intent(this, obScreen3::class.java))
+            startActivity(Intent(this, signIn::class.java))
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
     }

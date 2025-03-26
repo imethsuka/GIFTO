@@ -34,7 +34,6 @@ class profile : AppCompatActivity() {
         }
 
         navSettings.setOnClickListener {
-            // Settings navigation if needed
         }
     }
 }

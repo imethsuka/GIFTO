@@ -3,6 +3,7 @@ package com.imethsuka.gifto
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Button
 import android.widget.ImageButton
 
 class Home : AppCompatActivity() {
@@ -10,11 +11,19 @@ class Home : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        // Navigation setup
+
         val navProfile = findViewById<ImageButton>(R.id.nav_profile)
         val navCart = findViewById<ImageButton>(R.id.nav_cart)
         val navStore = findViewById<ImageButton>(R.id.nav_store)
         val navSettings = findViewById<ImageButton>(R.id.nav_settings)
+
+
+        val buyButton = findViewById<Button>(R.id.buyDEMO)
+        buyButton.setOnClickListener {
+            val intent = Intent(this, product::class.java)
+            startActivity(intent)
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+        }
 
         navProfile.setOnClickListener {
             val intent = Intent(this, profile::class.java)
@@ -35,10 +44,7 @@ class Home : AppCompatActivity() {
         }
 
         navSettings.setOnClickListener {
-            // If you have a settings page, uncomment this
-            // val intent = Intent(this, Settings::class.java)
-            // startActivity(intent)
-            // overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+
         }
     }
 }

@@ -11,19 +11,15 @@ class signIn : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
-        // Find the "Don't have account" text
         val signUpPrompt = findViewById<TextView>(R.id.tvSignUp)
 
-        // Set click listener to navigate to sign up
         signUpPrompt.setOnClickListener {
             startActivity(Intent(this, signUp::class.java))
             finish() // Optional: closes the sign in activity
         }
 
-        // Find the Sign In button
         val signInButton = findViewById<Button>(R.id.SignIn)
 
-        // Set click listener to navigate to home
         signInButton.setOnClickListener {
             startActivity(Intent(this, Home::class.java))
             finish() // Optional: closes the sign in activity
