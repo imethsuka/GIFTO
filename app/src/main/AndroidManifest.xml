@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GIFTO"
         tools:targetApi="31">
-
+        <activity
+            android:name=".productCard"
+            android:exported="false" />
         <!-- Main Loading Screen -->
         <activity
             android:name=".MainActivity"
@@ -20,41 +22,35 @@
             android:theme="@style/Theme.GIFTO.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Onboarding Screens -->
+        </activity> <!-- Onboarding Screens -->
         <activity
             android:name=".obScreen1"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.GIFTO.NoActionBar" />
-
         <activity
             android:name=".obScreen2"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.GIFTO.NoActionBar" />
-
         <activity
             android:name=".obScreen3"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.GIFTO.NoActionBar" />
-
-        <!-- Authentication Activities -->
+            android:theme="@style/Theme.GIFTO.NoActionBar" /> <!-- Authentication Activities -->
         <activity
             android:name=".signIn"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.GIFTO.NoActionBar" />
-
         <activity
             android:name=".signUp"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.GIFTO.NoActionBar" />
-
     </application>
+
 </manifest>
