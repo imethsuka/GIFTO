@@ -58,6 +58,7 @@ dependencies {
 
     // UI
     implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation(libs.androidx.activity)
 
     // Testing
     testImplementation("junit:junit:4.13.2")

@@ -5,14 +5,13 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageButton
 
-class Home : AppCompatActivity() {
+class cart : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_cart)
 
-        // Navigation setup
         val navProfile = findViewById<ImageButton>(R.id.nav_profile)
-        val navCart = findViewById<ImageButton>(R.id.nav_cart)
+        val navHome = findViewById<ImageButton>(R.id.nav_home)
         val navStore = findViewById<ImageButton>(R.id.nav_store)
         val navSettings = findViewById<ImageButton>(R.id.nav_settings)
 
@@ -22,8 +21,8 @@ class Home : AppCompatActivity() {
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
 
-        navCart.setOnClickListener {
-            val intent = Intent(this, cart::class.java)
+        navHome.setOnClickListener {
+            val intent = Intent(this, Home::class.java)
             startActivity(intent)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
@@ -35,10 +34,7 @@ class Home : AppCompatActivity() {
         }
 
         navSettings.setOnClickListener {
-            // If you have a settings page, uncomment this
-            // val intent = Intent(this, Settings::class.java)
-            // startActivity(intent)
-            // overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+            // Settings navigation if needed
         }
     }
 }
