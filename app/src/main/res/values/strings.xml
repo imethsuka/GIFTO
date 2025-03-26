@@ -14,4 +14,11 @@
     <string name="signUp">Sign Up</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rose">Rose Bouquet</string>
+    <string name="DelightChocolate">Delight Chocolate</string>
+    <string name="BirthdayCard">Birthday Card</string>
+    <string name="ChocolateBox">Chocolate Box</string>
+    <string name="Catego">Categories</string>
+    <string name="more">More Products</string>
+    <string name="cards">Cards</string>
 </resources>
