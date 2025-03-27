@@ -12,11 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GIFTO"
         tools:targetApi="31">
+
+        <!-- Product Related Activities -->
         <activity
             android:name=".product"
-            android:exported="false" />
-        <activity
-            android:name=".succes"
             android:exported="false" />
         <activity
             android:name=".profile"
@@ -26,28 +25,36 @@
             android:exported="false" />
         <activity
             android:name=".store"
-            android:exported="false" /> <!-- Main Loading Screen -->
+            android:exported="false" />
+        <activity
+            android:name=".checkout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
+
+        <!-- Success Activity (Single Declaration) -->
+        <activity
+            android:name=".succes"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
+
+        <!-- Main Activities -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.GIFTO.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Home Activity -->
+        </activity>
         <activity
             android:name=".Home"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.GIFTO.NoActionBar" /> <!-- Product Activities -->
-        <!-- <activity -->
-        <!-- android:name=".product_card_item" -->
-        <!-- android:exported="false" /> -->
-        <!-- <activity -->
-        <!-- android:name=".productCard" -->
-        <!-- android:exported="false" /> -->
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
+
         <!-- Onboarding Screens -->
         <activity
             android:name=".obScreen1"
@@ -63,7 +70,9 @@
             android:name=".obScreen3"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.GIFTO.NoActionBar" /> <!-- Authentication Activities -->
+            android:theme="@style/Theme.GIFTO.NoActionBar" />
+
+        <!-- Authentication Activities -->
         <activity
             android:name=".signIn"
             android:exported="false"
