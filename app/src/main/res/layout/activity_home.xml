@@ -8,9 +8,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- App Name and Top Bar -->
 
-    <!-- ScrollView for Banner, Categories, and Products -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

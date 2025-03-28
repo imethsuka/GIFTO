@@ -7,11 +7,8 @@
     android:background="@android:color/white"
     android:padding="24dp">
 
-    <!-- Large centered text -->
 
-    <!-- Description text -->
 
-    <!-- Next button -->
 
     <TextView
         android:id="@+id/titleText"

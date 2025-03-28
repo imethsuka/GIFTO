@@ -22,8 +22,8 @@
     <string name="cards">Cards</string>
     <string name="Store">Store</string>
     <string name="Buy">Buy</string>
-    <string name="myName">Imeth Methsuka</string>
-    <string name="myEmail">imethsuka@gmail.com</string>
     <string name="goBackHome">Go Back Home</string>
     <string name="ProceedToCheckout">Proceed to Checkout</string>
+    <string name="myName">Sashini Bhagya</string>
+    <string name="myEmail">Sashini@gmail.com</string>
 </resources>
