@@ -24,6 +24,23 @@
     <string name="Buy">Buy</string>
     <string name="goBackHome">Go Back Home</string>
     <string name="ProceedToCheckout">Proceed to Checkout</string>
-    <string name="myName">Sashini Bhagya</string>
-    <string name="myEmail">Sashini@gmail.com</string>
+    <string name="myName">Imeth Methsuka</string>
+    <string name="myEmail">Imethsuka@gmail.com</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="lkr_3_200_00">LKR 3,200.00</string>
+    <string name="lkr_5_500_00">LKR 5,500.00</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="lkr_8_700_00">LKR 8,700.00</string>
+    <string name="delivery">Delivery</string>
+    <string name="lkr_300_00">LKR 300.00</string>
+    <string name="lkr_9_000_00">LKR 9,000.00</string>
+    <string name="checkout">Checkout</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="proceed_to_payment">PROCEED TO PAYMENT</string>
+    <string name="flowers">Flowers</string>
+    <string name="cakes">Cakes</string>
+    <string name="chocos">Chocos</string>
+    <string name="trending">Trending</string>
+    <string name="buy">Buy</string>
+    <string name="chocolate_gateau">Chocolate Gateau</string>
 </resources>

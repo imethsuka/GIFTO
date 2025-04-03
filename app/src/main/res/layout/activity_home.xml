@@ -130,7 +130,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Flowers"
+                        android:text="@string/flowers"
                         android:textColor="@color/black"
                         android:textSize="13sp"
                         android:textStyle="bold" />
@@ -162,7 +162,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Cakes"
+                        android:text="@string/cakes"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -194,7 +194,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="Chocos"
+                        android:text="@string/chocos"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -240,7 +240,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:gravity="start"
-                android:text="Trending"
+                android:text="@string/trending"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -304,7 +304,7 @@
                                 android:layout_marginTop="8dp"
                                 android:background="@drawable/blackbtn"
                                 android:gravity="center"
-                                android:text="Buy"
+                                android:text="@string/buy"
                                 android:textColor="@color/white"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -583,7 +583,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:gravity="start"
-                            android:text="Chocolate Gateau"
+                            android:text="@string/chocolate_gateau"
                             android:textColor="@color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
